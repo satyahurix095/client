@@ -1,4 +1,4 @@
-import {BrowswerRouter}
+import {BrowswerRouter ,Routes,Route} from 'react-router-dom'
 
 import "./stylesheets/alignments.css";
 import "./stylesheets/theme.css";
