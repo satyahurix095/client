@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="bg-primary flex justify-center item-center h-screen">
       <h1 className="text-white">satya-library</h1>
-      
+      <h2  className="text-white">The best ever</h2>
     </div>
   );
 }
