@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowswerRouter}
+
+import "./stylesheets/alignments.css";
+import "./stylesheets/theme.css";
+import "./stylesheets/sizes.css";
+import "./stylesheets/custom-components.css";
+import "./stylesheets/form-elements.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-primary flex justify-center item-center h-screen">
+      <h1 className="text-white">satya-library</h1>
+      
     </div>
   );
 }
